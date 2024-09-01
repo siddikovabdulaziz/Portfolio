@@ -1,9 +1,64 @@
+/* Main.css */
 .main-container {
-    background-color: #2C2C2C;
     display: flex;
-    height: 646px;
+    align-items: center;
+    justify-content: center;
+    background-color: #2C2C2C;
+    color: white;
+    height: 647px;
+    gap: 200px;
 }
 
-.info-container {
-    
+.info-container h2 {
+    font-size: 48px;
 }
+
+.info-container h1 {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.info-container p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.info-container button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffb400;
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 18px;
+}
+
+.img-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.circle {
+    border: 50px solid #00C4F0;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 10px rgba(0, 191, 255, 0.5);
+}
+
+.main-img {
+    position: absolute;
+    top: 50%; /* Vertikal markazlash */
+    left: 50%; /* Gorizontal markazlash */
+    transform: translate(-50%, -50%); /* Haqiqiy markazlash */
+    width: 350px; /* Bolaning rasm o'lchami */
+    height: 500px;
+  }

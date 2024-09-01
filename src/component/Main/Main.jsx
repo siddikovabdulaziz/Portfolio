@@ -1,5 +1,6 @@
 import React from "react";
 import "./Main.css";
+import mainImg from "./main-img.png"
 
 const Main = () => {
   return (
@@ -17,7 +18,10 @@ const Main = () => {
         </p>
         <button>Contact me</button>
       </div>
-      <div className="img-container"></div>
+      <div className="img-container">
+      <img src={mainImg} alt="Profile" className="main-img" />
+        <div className="circle"></div>
+      </div>
     </div>
   );
 };

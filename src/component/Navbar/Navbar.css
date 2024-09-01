@@ -12,5 +12,27 @@
     text-decoration: none;
     color: #E4E4E4;
     font-size: 18px;
+    position: relative;
+    display: inline-block;
+
+    
+}
+
+
+.navbar-container > a::before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px; /* Chiziqning balandligi */
+    background-color: #E2A300; /* Chiziqning rangi */
+    bottom: 0;
+    left: 50%;
+    transition: all 0.3s ease-in-out;
+    margin-top:20px ;
+}
+
+.navbar-container > a:hover::before {
+    width: 100%;
+    left: 0;
 }
 
