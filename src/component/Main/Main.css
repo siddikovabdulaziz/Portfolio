@@ -20,8 +20,9 @@
 }
 
 .info-container p {
+    color: #E4E4E4;
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.6;
 }
 

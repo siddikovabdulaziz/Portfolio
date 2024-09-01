@@ -14,12 +14,10 @@
     font-size: 18px;
     position: relative;
     display: inline-block;
-
-    
 }
 
 
-.navbar-container > a::before {
+.navbar-container  a::before {
     content: '';
     position: absolute;
     width: 0%;
