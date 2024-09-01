@@ -6,7 +6,7 @@ import { FaArrowCircleUp } from 'react-icons/fa';
 const Footer = () => {
   return (
     <div>
-      <footer className="footer-container">
+      <footer className="footer-container" id='Contact'>
         <div className="footer-content">
           <div className="footer-section">
             <ul>

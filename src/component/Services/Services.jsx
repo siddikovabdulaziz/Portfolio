@@ -9,7 +9,7 @@ import { MdAutoAwesomeMotion } from "react-icons/md";
 
 const Services = () => {
   return (
-    <div className="services-container">
+    <div className="services-container" >
       <div className="buttom-container">
         <div className="skills-container">
           <div className="skill-card">
