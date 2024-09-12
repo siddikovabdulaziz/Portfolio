@@ -18,6 +18,12 @@ const Main = () => {
         </p>
         <button>Contact me</button>
       </div>
+      <div className="main-icon">
+        <div className="Ps">Ps</div>
+        <div className="Ux">Ux</div>
+        <div className="belgi">{"</"}</div>
+        <div className="UI">UI</div>
+      </div>
       <div className="img-container">
       <img src={mainImg} alt="Profile" className="main-img" />
         <div className="circle"></div>

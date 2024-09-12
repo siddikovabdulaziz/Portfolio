@@ -6,7 +6,6 @@
     background-color: #2C2C2C;
     color: white;
     height: 647px;
-    gap: 200px;
 }
 
 .info-container h2 {
@@ -49,17 +48,77 @@
 
 .circle {
     border: 50px solid #00C4F0;
-    width: 400px;
-    height: 400px;
+    width: 480px;
+    height: 480px;
     border-radius: 50%;
     box-shadow: 0px 0px 20px 10px rgba(0, 191, 255, 0.5);
 }
 
 .main-img {
     position: absolute;
-    top: 50%; /* Vertikal markazlash */
+    top: 42%; /* Vertikal markazlash */
     left: 50%; /* Gorizontal markazlash */
     transform: translate(-50%, -50%); /* Haqiqiy markazlash */
-    width: 350px; /* Bolaning rasm o'lchami */
-    height: 500px;
+    width: 370px; /* Bolaning rasm o'lchami */
+    height: 555px;
   }
+
+  .ps {
+    position: absolute;
+    left: 100px;
+    right: 500px;
+  }
+
+  .main-icon{
+    display: flex;
+
+}
+
+.main-icon div {
+    width: 80px ;
+    height: 80px;
+    position: relative;
+    z-index: 1;
+    width:80px;
+    height: 80px;
+
+}
+.Ps, .belgi, .Ux, .UI{
+    background-color: #414141;
+    border: 5px solid black; 
+    border-radius: 50% ;    
+    padding: 20px 25px;
+    border: none;   
+    font-size: 30px;
+    font-weight: 700;
+    color: #00C4F0;
+}
+
+.Ps {
+    position: absolute;
+    top: 130px;
+    left: 320px;
+
+}
+
+.Ux {
+    position: absolute;
+    left: 200px;
+    bottom: 17px;
+    padding: 20px 20px;
+
+}
+
+.belgi {
+    position: absolute;
+    bottom: 150px ;
+    left: 180px;
+}
+
+
+
+.UI {
+    position: absolute;
+    left: 486px;
+    bottom: 175px;
+}
