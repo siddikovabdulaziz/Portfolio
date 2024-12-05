@@ -6,6 +6,7 @@
     background-color: #2C2C2C;
     color: white;
     height: 647px;
+
 }
 
 .info-container h2 {
@@ -36,6 +37,12 @@
     border-radius: 5px;
     width: 200px;
     font-size: 18px;
+    transition: transform 0.3s ease;
+}
+
+.info-container button:hover{
+    transform: scale(1.1) translateZ(5px);
+    ;
 }
 
 .img-container {
@@ -52,15 +59,18 @@
     height: 480px;
     border-radius: 50%;
     box-shadow: 0px 0px 20px 10px rgba(0, 191, 255, 0.5);
+    
 }
 
 .main-img {
     position: absolute;
+    left: 5000px;
     top: 42%; /* Vertikal markazlash */
     left: 50%; /* Gorizontal markazlash */
     transform: translate(-50%, -50%); /* Haqiqiy markazlash */
     width: 370px; /* Bolaning rasm o'lchami */
     height: 555px;
+    z-index: 1000;
   }
 
   .ps {
@@ -71,7 +81,12 @@
 
   .main-icon{
     display: flex;
+    transition: transform 0.3s ease;
+    z-index: 1000;
+}   
 
+.info-container button:hover{
+    transform:scale(1.1);
 }
 
 .main-icon div {
@@ -79,8 +94,7 @@
     height: 80px;
     position: relative;
     z-index: 1;
-    width:80px;
-    height: 80px;
+
 
 }
 .Ps, .belgi, .Ux, .UI{
@@ -92,18 +106,25 @@
     font-size: 30px;
     font-weight: 700;
     color: #00C4F0;
+    cursor: pointer;
+
 }
 
 .Ps {
     position: absolute;
-    top: 130px;
-    left: 320px;
+    top: 140px;
+    left: 305px;
+    padding: 21px;
+}
 
+.main-icon div:hover {
+    color: #2C2C2C;
+    background-color: #ffb400;
 }
 
 .Ux {
     position: absolute;
-    left: 200px;
+    left: 190px;
     bottom: 17px;
     padding: 20px 20px;
 
@@ -111,14 +132,14 @@
 
 .belgi {
     position: absolute;
-    bottom: 150px ;
-    left: 180px;
+    bottom: 165px ;
+    left: 170px;
 }
 
 
 
 .UI {
     position: absolute;
-    left: 486px;
+    left: 470px;
     bottom: 175px;
 }

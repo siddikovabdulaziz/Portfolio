@@ -43,7 +43,34 @@
   font-size: 65px;
   }
 
-  .product-card:hover {
-    transform: rotateX('10deg');
+  .product-card:nth-child(1):hover{
+    transform: scale(1.1);
+    
+  }
+  .product-card:nth-child(2):hover{
+    transform: scale(1.1);
+    
+  }
+  .product-card:nth-child(3):hover{
+    transform: scale(1.1);
+    
+  }
+  .product-card:nth-child(4):hover{
+    transform: scale(1.1);
+    
+  }
 
+  .product-card:nth-child(5):hover{
+    transform: scale(1.1);
+    
+  }
+
+  .product-card:nth-child(6):hover{
+    transform: scale(1.1);
+    
+  }
+
+  .product-card:nth-child(7):hover{
+    transform: scale(1.1);
+    
   }

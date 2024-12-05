@@ -12,10 +12,10 @@ const Portfoliyo = () => {
       <h1>PORTFOLIO</h1>
 
       <div className='portfolio-container'>
-        <div className='img-content'>
+        <div className='img-content' data-aos="zoom-in-up">
           <img src={portfolioImg} alt="" />
         </div>
-        <div className='text-content'>
+        <div className='text-content' data-aos="fade-up">
           <h6>Landing Ice-cream</h6>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing
             elit. Donec ut orci eu elit consequat posuere ut sed
@@ -32,8 +32,8 @@ const Portfoliyo = () => {
         </div>
 
         <div className='icons'>
-          <div className='iconLeft'><HiOutlineArrowLeft /></div>
-          <div className='iconRight'> <HiOutlineArrowRight /></div>
+          <div className='iconLeft' data-aos="fade-left"><HiOutlineArrowLeft /></div>
+          <div className='iconRight' data-aos="fade-right"> <HiOutlineArrowRight /></div>
         </div>
 
       </div>

@@ -6,8 +6,8 @@ import { FaArrowCircleUp } from 'react-icons/fa';
 const Footer = () => {
   return (
     <div>
-      <footer className="footer-container" id='Contact'>
-        <div className="footer-content">
+      <footer className="footer-container" id='Contact' >
+        <div className="footer-content" data-aos="zoom-in">
           <div className="footer-section">
             <ul>
               <li><a href="#home">Home</a></li>

@@ -13,33 +13,40 @@ import { MdAutoAwesomeMotion } from "react-icons/md";
 const Services = () => {
   return (
     <div className="product" id="Services">
-      <div className="product-cards">
-        <div className="product-card">
-        <div className="icon1"><BsVectorPen /></div> 
+      <div className="product-cards" >
+        <div className="product-card" data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom">
+          <div className="icon1"><BsVectorPen /></div>
           <h4>Product Design</h4>
         </div>
-        <div className="product-card">
+        <div className="product-card" data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom">
           <div className='icon'>UX/UI</div>
           <h4>UX/UI Design</h4>
         </div>
-        <div className="product-card">
+        <div className="product-card" data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom">
           <div className='icon'><FaList /></div>
           <h4>Icon Design</h4>
         </div>
-        <div className="product-card">
-        <div className='icon'><SiDelicious /> </div>
+        <div className="product-card" data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom">
+          <div className='icon'><SiDelicious /> </div>
           <h4>Logo Design</h4>
         </div>
-        <div className="product-card">
-        <div className='icon'><FaCode /></div>
-          <h4>Backend</h4>  
+        <div className="product-card" data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom">
+          <div className='icon'><FaCode /></div>
+          <h4>Backend</h4>
         </div>
-        <div className="product-card">
-        <div className='icon'><FaDisplay /></div>
+        <div className="product-card" data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom">
+          <div className='icon'><FaDisplay /></div>
           <h4>Frontend</h4>
         </div>
-        <div className="product-card">
-        <div className='icon'><MdAutoAwesomeMotion /></div>
+        <div className="product-card" data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom">
+          <div className='icon'><MdAutoAwesomeMotion /></div>
           <h4>Motion</h4>
         </div>
       </div>
